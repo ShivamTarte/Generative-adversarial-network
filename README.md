@@ -1,2 +1,4 @@
 # Generative-adversarial-network
-The objective of my personal project is to create person face not existing in this world.Fake perfect faces,technically perfect sharp faces were the point behind it
+The objective of my personal project is to create person face not existing in this world.Fake perfect faces,technically perfect sharp faces were the point behind it.It was preexisting idea but it came to me after i studied convolution neural network.I studied of Deconvolution and how it can be used to verify neural network related output.For eg Facial verification code is done CNN use use weightsnot directly to create reference image to verify it, image can be seen through deconvolution.
+
+I used idea about using deconvolution network as generator and using basic verifying network for checking if image is facial or not as discriminator.By combining this two GAN network is formed.The GAN network improves over time it starts creating from noise to perfect face after using GAN network.As genrator create
