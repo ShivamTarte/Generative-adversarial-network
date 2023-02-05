@@ -8,4 +8,6 @@ Before compiling the full setup, we have to set the discriminator model not to b
 Although we compile the discriminator we don’t need to compile the generator model because we do not use the generator on its own.
 This order ensures that the discriminator is updated at the right time and frozen when it has to be. Therefore if we train the whole model, it will just update the generator, and when we train the discriminator, it will only update the discriminator.
 
-Botyh train on label 0 AND 1 for fake faces and real faces
+Boty train on label 0 AND 1 for fake faces and real faces
+ 
+Dataset link-https://www.kaggle.com/datasets/jessicali9530/celeba-dataset
